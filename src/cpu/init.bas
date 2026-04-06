@@ -9,3 +9,7 @@ _start:
     WRFR B0
     
     J32 KernelMain
+
+_native_hcf:
+    DIS
+    BRK
