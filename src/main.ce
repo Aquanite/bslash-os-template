@@ -1,0 +1,12 @@
+#hint implicit-void-function
+module Template;
+
+bring Template.Intrinsics;
+bring Template.Serial as Serial;
+
+export preserve jumptarget managed expose noreturn fun KernelMain() {
+    Serial.WriteString("Hello, world!\n");
+
+    DIS();
+    BRK();
+}

@@ -1,0 +1,5 @@
+type=Console
+output=template.bin
+ce=main.ce,intrinsic/intrinsic.ce
+ce=serial.ce,cpu/init.ce
+args=--freestanding -bslash
