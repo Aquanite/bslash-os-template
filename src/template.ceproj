@@ -1,5 +1,6 @@
 type=Console
 output=template.bin
 ce=main.ce,intrinsic/intrinsic.ce
-ce=serial.ce,cpu/init.ce
+ce=serial.ce
+asm=cpu/init.bas
 args=--freestanding -bslash
