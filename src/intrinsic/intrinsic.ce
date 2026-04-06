@@ -1,7 +1,6 @@
 #hint implicit-void-function
 module Template.Intrinsics;
 
-
 literal forceinline expose noreturn fun BRK() // Break (INT 6)
 {
     BRK
